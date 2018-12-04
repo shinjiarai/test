@@ -1,4 +1,4 @@
 From ubuntu
-RUN apt-get -y install nginx
+RUN apt-get install -y nginx
 CMD ["nginx"]
 EXPOSE 80
